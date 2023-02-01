@@ -1,0 +1,33 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #777;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter";
+  box-sizing: border-box;
+}
+
+.navigation {
+  margin: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: orangered;
+}
+.navigation__logo {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.navigation__items {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.navigation__item {
+  padding: 1.5rem;
+  font-size: 2.4rem;
+  color: greenyellow;
+}/*# sourceMappingURL=style.css.map */
