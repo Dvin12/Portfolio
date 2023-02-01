@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: violet;
+
+  &__headline {
+  }
+
+  &__image {
+    max-width: 100%;
+  }
+}

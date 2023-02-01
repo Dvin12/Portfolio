@@ -29,5 +29,18 @@ html {
 .navigation__item {
   padding: 1.5rem;
   font-size: 2.4rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+.navigation__item a {
   color: greenyellow;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: violet;
+}
+.header__image {
+  max-width: 100%;
 }/*# sourceMappingURL=style.css.map */
