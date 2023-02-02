@@ -1,0 +1,14 @@
+.skills {
+  background-color: brown;
+  height: 30vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.skill__box {
+  font-size: 5rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

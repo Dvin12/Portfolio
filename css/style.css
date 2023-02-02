@@ -49,4 +49,43 @@ html {
 }
 .header__img-box {
   width: 100%;
+}
+
+.skills {
+  background-color: brown;
+  height: 30vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.skill__box {
+  font-size: 5rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects {
+  background-color: violet;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+.project__box img {
+  width: 80%;
+}
+
+.contact {
+  height: 50vh;
+  background-color: mediumvioletred;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.footer {
+  height: 5vh;
+  background-color: #999;
 }/*# sourceMappingURL=style.css.map */
