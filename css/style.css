@@ -11,7 +11,6 @@ html {
 }
 
 .navigation {
-  margin: 2.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,10 +36,17 @@ html {
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  background-color: violet;
+  background-color: yellowgreen;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
 }
-.header__image {
-  max-width: 100%;
+.header__text-box h1 {
+  font-size: 6.5rem;
+}
+.header__text-box p {
+  font-size: 3.5rem;
+}
+.header__img-box {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
