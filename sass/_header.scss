@@ -1,20 +1,44 @@
 .header {
   max-width: 160rem;
   margin: 0 auto;
-  background-color: yellowgreen;
+  margin-top: 2.4rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
 
-  &__text-box h1 {
-    font-size: 6.5rem;
+  &__text-box {
+    margin: auto 0;
+    h1 {
+      font-size: 5.4rem;
+      letter-spacing: 1.5px;
+    }
+    span {
+      text-decoration: underline;
+      text-decoration-color: #ffec99;
+    }
+
+    p {
+      margin-top: 4.4rem;
+      font-size: 1.8rem;
+      font-weight: 400;
+      text-align: justify;
+      letter-spacing: 1px;
+    }
+
+    &__btn {
+      display: inline-block;
+      margin-top: 4.4rem;
+      padding-right: 4rem;
+      font-size: 2rem;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      text-decoration: none;
+      color: #e9ecef;
+    }
   }
 
-  &__text-box p {
-    font-size: 3.5rem;
-  }
   &__img-box {
     width: 70%;
+    filter: grayscale(1) contrast(1.35) opacity(0.8);
     margin: 0 auto;
   }
 }

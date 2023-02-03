@@ -25,10 +25,10 @@ html {
 .navigation__items {
   list-style: none;
   display: flex;
+  gap: 3.4rem;
   justify-content: space-around;
 }
 .navigation__item {
-  padding: 1.5rem;
   font-size: 2.4rem;
   cursor: pointer;
   text-decoration: none;
@@ -40,19 +40,42 @@ html {
 .header {
   max-width: 160rem;
   margin: 0 auto;
-  background-color: yellowgreen;
+  margin-top: 2.4rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+}
+.header__text-box {
+  margin: auto 0;
 }
 .header__text-box h1 {
-  font-size: 6.5rem;
+  font-size: 5.4rem;
+  letter-spacing: 1.5px;
+}
+.header__text-box span {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #ffec99;
+          text-decoration-color: #ffec99;
 }
 .header__text-box p {
-  font-size: 3.5rem;
+  margin-top: 4.4rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+.header__text-box__btn {
+  display: inline-block;
+  margin-top: 4.4rem;
+  padding-right: 4rem;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+  color: #e9ecef;
 }
 .header__img-box {
   width: 70%;
+  filter: grayscale(1) contrast(1.35) opacity(0.8);
   margin: 0 auto;
 }
 
