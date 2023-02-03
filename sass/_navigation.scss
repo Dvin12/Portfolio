@@ -2,11 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: orangered;
+  height: 9.6rem;
+  margin: 0 15.2rem;
 
   &__logo {
-    font-size: 2.5rem;
-    font-weight: 400;
+    font-size: 3.4rem;
+    font-weight: 700;
   }
 
   &__items {
@@ -22,7 +23,7 @@
     text-decoration: none;
 
     a {
-      color: greenyellow;
+      color: #e9ecef;
     }
   }
 }
