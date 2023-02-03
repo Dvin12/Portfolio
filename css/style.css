@@ -111,15 +111,43 @@ html {
 }
 
 .projects {
-  background-color: violet;
-  height: 50vh;
+  max-width: 160rem;
+  margin: 0 auto;
+}
+.projects__name {
+  font-size: 5.4rem;
+  letter-spacing: 1.5px;
+  line-height: 5.6rem;
+}
+.projects__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 4rem;
 }
 
+.project__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .project__box img {
   width: 80%;
+}
+.project__box__text {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5.3rem;
+}
+.project__box__text p {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+.project__box__text__icons {
+  display: flex;
+  gap: 0.8rem;
+  font-size: 2rem;
+  margin-top: -1.4rem;
 }
 
 .contact {

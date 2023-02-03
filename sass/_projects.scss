@@ -1,13 +1,43 @@
 .projects {
-  background-color: violet;
-  height: 50vh; //temp
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 4rem;
+  max-width: 160rem;
+  margin: 0 auto;
+
+  &__name {
+    font-size: 5.4rem;
+    letter-spacing: 1.5px;
+    line-height: 5.6rem;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .project__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   img {
     width: 80%;
+  }
+
+  &__text {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5.3rem;
+
+    p {
+      font-size: 1.8rem;
+      margin-top: 1rem;
+    }
+    &__icons {
+      display: flex;
+      gap: 0.8rem;
+      font-size: 2rem;
+      margin-top: -1.4rem;
+    }
   }
 }
