@@ -46,10 +46,12 @@ html {
 }
 .header__text-box {
   margin: auto 0;
+  justify-items: stretch;
 }
 .header__text-box h1 {
   font-size: 5.4rem;
   letter-spacing: 1.5px;
+  line-height: 5.6rem;
 }
 .header__text-box span {
   text-decoration: underline;
@@ -61,7 +63,7 @@ html {
   font-size: 1.8rem;
   font-weight: 400;
   text-align: justify;
-  letter-spacing: 1px;
+  letter-spacing: 1.6px;
 }
 .header__text-box__btn {
   display: inline-block;
@@ -74,24 +76,38 @@ html {
   color: #e9ecef;
 }
 .header__img-box {
-  width: 70%;
+  width: 65%;
   filter: grayscale(1) contrast(1.35) opacity(0.8);
-  margin: 0 auto;
+  justify-self: end;
+  border-radius: 1.5%;
 }
 
 .skills {
-  background-color: brown;
-  height: 30vh;
+  max-width: 160rem;
+  height: 20rem;
+  margin: 0 auto;
+  margin-top: 12rem;
+  border-top: 2px solid #e9ecef;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
 .skill__box {
-  font-size: 5rem;
   color: #fff;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  vertical-align: top;
+  text-align: center;
+}
+.skill__box i {
+  margin-top: 1.4rem;
+  font-size: 8.4rem;
+}
+.skill__box span {
+  margin-top: 0.8rem;
+  font-size: 2.4rem;
 }
 
 .projects {

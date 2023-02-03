@@ -1,14 +1,29 @@
 .skills {
-  background-color: brown;
-  height: 30vh;
+  max-width: 160rem;
+  height: 20rem;
+  margin: 0 auto;
+  margin-top: 12rem;
+  border-top: 2px solid #e9ecef;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
 .skill__box {
-  font-size: 5rem;
   color: #fff;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  vertical-align: top;
+  text-align: center;
+
+  i {
+    margin-top: 1.4rem;
+    font-size: 8.4rem;
+  }
+
+  span {
+    margin-top: 0.8rem;
+    font-size: 2.4rem;
+  }
 }
