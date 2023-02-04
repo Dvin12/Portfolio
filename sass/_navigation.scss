@@ -8,6 +8,7 @@
   &__logo {
     font-size: 3.4rem;
     font-weight: 700;
+    font-style: oblique 60deg;
   }
 
   &__items {
@@ -21,9 +22,22 @@
     font-size: 2.4rem;
     cursor: pointer;
     text-decoration: none;
+    transition: all 0.3s;
 
     a {
       color: #e9ecef;
+      &::after,
+      &:hover {
+        color: #ffec99;
+      }
+    }
+
+    &::after,
+    &:hover {
+      content: "";
+      color: #ffec99;
+      transform: translateY(-0.5rem);
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     }
   }
 }
