@@ -1,6 +1,5 @@
 .skills {
   max-width: 160rem;
-  height: 20rem;
   margin: 0 auto;
   margin-top: 12rem;
   border-top: 2px solid #e9ecef;
@@ -9,6 +8,7 @@
 }
 
 .skill__box {
+  margin: 12rem 0;
   color: #fff;
   display: flex;
   flex-direction: column;
