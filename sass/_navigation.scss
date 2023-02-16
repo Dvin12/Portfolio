@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 160rem;
   height: 9.6rem;
-  margin: 0 15.2rem;
+  margin: 0 auto;
 
   &__logo {
     font-size: 3.4rem;
@@ -42,7 +43,13 @@
 
 @media only screen and (max-width: 75em) {
   .navigation {
-    margin: 0 3.6rem;
+    max-width: 140rem;
+  }
+}
+
+@media only screen and (max-width: 59.375em) {
+  .navigation {
+    max-width: 110rem;
   }
 }
 

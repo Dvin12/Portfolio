@@ -115,10 +115,15 @@
   }
 }
 
-@media only screen and (max-width: 53.125em) {
+@media only screen and (max-width: 75em) {
   .contact {
-    max-width: 90rem;
-    margin: 0 auto;
+    max-width: 140rem;
+  }
+}
+
+@media only screen and (max-width: 59.375em) {
+  .contact {
+    max-width: 110rem;
 
     &__name {
       font-size: 5.4rem;
@@ -136,5 +141,30 @@
       margin-left: 0;
       align-items: center;
     }
+  }
+}
+
+@media only screen and (max-width: 53.125em) {
+  .contact {
+    max-width: 90rem;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 40.625em) {
+  .contact {
+    max-width: 70rem;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .contact {
+    max-width: 50rem;
+  }
+}
+
+@media only screen and (max-width: 22.5em) {
+  .contact {
+    max-width: 30rem;
   }
 }
