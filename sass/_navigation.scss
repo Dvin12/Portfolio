@@ -39,3 +39,23 @@
     }
   }
 }
+
+@media only screen and (max-width: 75em) {
+  .navigation {
+    margin: 0 3.6rem;
+  }
+}
+
+@media only screen and (max-width: 53.125em) {
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+    &__logo {
+      transform: translate(50%, 0%);
+    }
+  }
+}

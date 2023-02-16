@@ -114,3 +114,27 @@
     }
   }
 }
+
+@media only screen and (max-width: 53.125em) {
+  .contact {
+    max-width: 90rem;
+    margin: 0 auto;
+
+    &__name {
+      font-size: 5.4rem;
+      letter-spacing: 1.5px;
+      line-height: 5.6rem;
+      text-align: center;
+    }
+
+    &__container {
+      height: 80vh;
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    &__info {
+      margin-left: 0;
+      align-items: center;
+    }
+  }
+}
