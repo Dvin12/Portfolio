@@ -34,12 +34,6 @@
       font-size: 1.8rem;
       margin-top: 1rem;
     }
-    &__icons {
-      display: flex;
-      gap: 0.8rem;
-      font-size: 2rem;
-      margin-top: -1.4rem;
-    }
   }
 }
 
@@ -63,7 +57,7 @@
 
   .project__box {
     img {
-      width: 65%;
+      width: 55%;
     }
 
     &__text {
