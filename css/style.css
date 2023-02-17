@@ -341,7 +341,7 @@ html {
 .projects__container {
   margin: 16.5rem 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .project__box {
@@ -351,13 +351,12 @@ html {
   align-items: center;
 }
 .project__box img {
-  width: 80%;
+  width: 60%;
 }
 .project__box__text {
-  align-self: flex-start;
+  align-self: center;
   display: flex;
   flex-direction: column;
-  margin-left: 5.3rem;
 }
 .project__box__text p {
   font-size: 1.8rem;
@@ -375,9 +374,6 @@ html {
   }
   .projects__name {
     text-align: center;
-  }
-  .projects__container {
-    grid-template-columns: repeat(1, 1fr);
   }
   .project__box img {
     width: 55%;

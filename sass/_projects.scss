@@ -11,7 +11,7 @@
   &__container {
     margin: 16.5rem 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -21,14 +21,13 @@
   justify-content: center;
   align-items: center;
   img {
-    width: 80%;
+    width: 60%;
   }
 
   &__text {
-    align-self: flex-start;
+    align-self: center;
     display: flex;
     flex-direction: column;
-    margin-left: 5.3rem;
 
     p {
       font-size: 1.8rem;
@@ -49,9 +48,6 @@
 
     &__name {
       text-align: center;
-    }
-    &__container {
-      grid-template-columns: repeat(1, 1fr);
     }
   }
 
