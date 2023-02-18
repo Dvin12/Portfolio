@@ -78,7 +78,12 @@
           <img class="image__img" src="img/PopcornDB.png" alt="" />
           <div class="image__overlay">
             <div class="image__title">PopCornDB</div>
-            <p class="image__description">YEAH</p>
+            <p class="image__description">
+              An app that allows to see popular movies at the given time. It
+              also allows to search for any movie that there is and see its
+              overview and the rating. All the the data is fetched from TMDB
+              API.
+            </p>
             <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </div>
         </div>
@@ -87,7 +92,11 @@
           <img class="image__img" src="img/WeatherApp.png" alt="" />
           <div class="image__overlay">
             <div class="image__title">Weather App</div>
-            <p class="image__description">YEAH</p>
+            <p class="image__description">
+              The App allows the user to search for any city in the world and
+              see what's the current weather in there. All the data is fetched
+              from OpenWeather API.
+            </p>
             <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </div>
         </div>
@@ -96,7 +105,9 @@
           <img class="image__img" src="img/TodoApp.png" alt="" />
           <div class="image__overlay">
             <div class="image__title">To-Do App</div>
-            <p class="image__description">YEAH</p>
+            <p class="image__description">
+              The app allows the user organise their daily tasks.
+            </p>
             <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </div>
         </div>
@@ -124,7 +135,7 @@
           </div>
         </div>
         <div class="contact__form">
-          <form action="">
+          <form name="submit-to-google-sheet">
             <input type="text" name="Name" placeholder="Your Name" required />
             <input
               type="email"
@@ -139,6 +150,7 @@
               required
             ></textarea>
             <button type="submit" class="btn contact__form__btn">SUBMIT</button>
+            <span id="msg"></span>
           </form>
         </div>
       </div>

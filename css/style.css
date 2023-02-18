@@ -156,8 +156,8 @@ html {
 
 .image {
   position: relative;
-  width: 100%;
-  transform: translate(0%);
+  width: 80%;
+  transform: translate(14%);
 }
 .image__img {
   display: block;
@@ -176,7 +176,7 @@ html {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.2s;
+  transition: opacity 0.2s ease-in;
 }
 .image__overlay:hover, .image__overlay:active {
   opacity: 1;
@@ -295,6 +295,11 @@ html {
 .contact__form__btn:hover:after {
   width: 100%;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.9);
+}
+
+#msg {
+  font-size: 1.4rem;
+  text-align: center;
 }
 
 .footer {
