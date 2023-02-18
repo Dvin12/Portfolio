@@ -31,13 +31,14 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba($color: #000000, $alpha: 0.6);
+    background-color: rgba($color: #000000, $alpha: 0.8);
     color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     opacity: 0;
+
     transition: opacity 0.2s ease-in;
 
     &:hover,
@@ -47,10 +48,17 @@
   }
 
   &__title {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
   }
 
   &__description {
+    padding: 0 4.4rem;
     font-size: 1.8rem;
+    text-align: center;
+  }
+
+  i {
+    font-size: 3.4rem;
+    cursor: pointer;
   }
 }

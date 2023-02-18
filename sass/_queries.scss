@@ -298,11 +298,32 @@
   .projects {
     max-width: 50rem;
   }
+  .image {
+    width: 100%;
+    transform: translate(0);
+  }
 }
 
 @media only screen and (max-width: 22.5em) {
   .projects {
     max-width: 30rem;
+  }
+
+  .image {
+    &__title {
+      font-size: 1.2rem;
+    }
+
+    &__description {
+      padding: 0 1.4rem;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+
+    i {
+      font-size: 2.4rem;
+      cursor: pointer;
+    }
   }
 }
 //////////////////////////////////////////////////
