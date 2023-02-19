@@ -130,7 +130,7 @@
 
 @media only screen and (max-width: 40.625em) {
   .header {
-    max-width: 70rem;
+    max-width: 80rem;
 
     &__text-box {
       h1 {
@@ -154,7 +154,7 @@
 
 @media only screen and (max-width: 31.25em) {
   .header {
-    max-width: 50rem;
+    max-width: 60rem;
     &__text-box {
       h1 {
         font-size: 3.3rem;
@@ -173,7 +173,7 @@
 
 @media only screen and (max-width: 22.5em) {
   .header {
-    max-width: 30rem;
+    max-width: 40rem;
 
     &__text-box {
       h1 {
@@ -197,7 +197,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      transform: translate(10%);
+      transform: translate(6%);
     }
 
     &__img-box {
@@ -229,20 +229,20 @@
 
 @media only screen and (max-width: 40.625em) {
   .skills {
-    max-width: 70rem;
+    max-width: 80rem;
   }
 }
 
 @media only screen and (max-width: 31.25em) {
   .skills {
-    max-width: 50rem;
+    max-width: 60rem;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media only screen and (max-width: 22.5em) {
   .skills {
-    max-width: 30rem;
+    max-width: 40rem;
     grid-template-columns: repeat(1, 1fr);
   }
 
@@ -264,20 +264,13 @@
 @media only screen and (max-width: 59.375em) {
   .projects {
     max-width: 110rem;
+    .image {
+      width: 100%;
+      transform: translate(0);
+    }
 
     &__name {
       text-align: center;
-    }
-  }
-
-  .project__box {
-    img {
-      width: 55%;
-    }
-
-    &__text {
-      align-self: center;
-      margin-left: 0rem;
     }
   }
 }
@@ -285,19 +278,20 @@
 @media only screen and (max-width: 53.125em) {
   .projects {
     max-width: 90rem;
+
+    &__container {
+      margin: 8.4rem 0;
+    }
   }
 }
 
 @media only screen and (max-width: 40.625em) {
   .projects {
-    max-width: 70rem;
+    max-width: 80rem;
   }
 }
 
 @media only screen and (max-width: 31.25em) {
-  .projects {
-    max-width: 50rem;
-  }
   .image {
     width: 100%;
     transform: translate(0);
@@ -305,10 +299,6 @@
 }
 
 @media only screen and (max-width: 22.5em) {
-  .projects {
-    max-width: 30rem;
-  }
-
   .image {
     &__title {
       font-size: 1.2rem;
@@ -321,7 +311,7 @@
     }
 
     i {
-      font-size: 2.4rem;
+      font-size: 2rem;
       cursor: pointer;
     }
   }
@@ -373,7 +363,7 @@
 
 @media only screen and (max-width: 40.625em) {
   .contact {
-    max-width: 70rem;
+    max-width: 80rem;
   }
 }
 
