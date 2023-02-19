@@ -192,6 +192,11 @@ html {
   font-size: 1.8rem;
   text-align: center;
 }
+.image a,
+.image a:active {
+  color: inherit;
+  text-decoration: none;
+}
 .image i {
   font-size: 2.8rem;
   cursor: pointer;
