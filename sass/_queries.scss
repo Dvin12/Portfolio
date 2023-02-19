@@ -154,7 +154,7 @@
 
 @media only screen and (max-width: 31.25em) {
   .header {
-    max-width: 60rem;
+    max-width: 50rem;
     &__text-box {
       h1 {
         font-size: 3.3rem;
@@ -235,7 +235,7 @@
 
 @media only screen and (max-width: 31.25em) {
   .skills {
-    max-width: 60rem;
+    max-width: 50rem;
     grid-template-columns: repeat(2, 1fr);
   }
 }
