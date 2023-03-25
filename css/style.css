@@ -31,7 +31,7 @@ html {
 .navigation__logo {
   font-size: 3.4rem;
   font-weight: 700;
-  font-style: oblique 60deg;
+  font-style: oblique 24deg;
   cursor: pointer;
 }
 .navigation__items {
@@ -191,6 +191,12 @@ html {
   padding: 0 4.4rem;
   font-size: 1.8rem;
   text-align: center;
+}
+.image__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
 }
 .image a,
 .image a:active {

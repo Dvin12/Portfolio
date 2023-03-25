@@ -59,6 +59,13 @@
     text-align: center;
   }
 
+  &__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+  }
+
   a,
   a:active {
     color: inherit;
