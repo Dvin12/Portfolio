@@ -117,7 +117,7 @@ html {
   margin-top: 12rem;
   border-top: 2px solid #e9ecef;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .skill__box {
@@ -137,6 +137,13 @@ html {
 .skill__box span {
   margin-top: 0.8rem;
   font-size: 2.4rem;
+}
+
+.tailwind {
+  width: 100%;
+  height: auto;
+  max-width: 100px;
+  fill: white;
 }
 
 .projects {
@@ -492,6 +499,7 @@ html {
 @media only screen and (max-width: 75em) {
   .skills {
     max-width: 140rem;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media only screen and (max-width: 59.375em) {

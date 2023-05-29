@@ -4,7 +4,7 @@
   margin-top: 12rem;
   border-top: 2px solid #e9ecef;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .skill__box {
@@ -26,4 +26,11 @@
     margin-top: 0.8rem;
     font-size: 2.4rem;
   }
+}
+
+.tailwind {
+  width: 100%;
+  height: auto;
+  max-width: 100px;
+  fill: white;
 }

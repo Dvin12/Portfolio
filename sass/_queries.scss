@@ -212,6 +212,7 @@
 @media only screen and (max-width: 75em) {
   .skills {
     max-width: 140rem;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
